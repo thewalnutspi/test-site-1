@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+	background: url('background.jpg') #87aafe no-repeat fixed top center / cover;
+	font-family: 'Raleway', sans-serif;
+}
+
+header, section {
+	margin: 20px auto;
+	max-width: 700px;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+.container {
+	padding: 10px 0px 20px;
+	width: auto;
+}
+
+header {
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	-webkit-filter: drop-shadow(0px 0px 20px #ffffff);
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+header .container {
+	margin: 0px;
+	padding: 75px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section {
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(1px);
+}
+
+h1, h2 {
+	margin: 20px 20px 10px;
+	text-transform: uppercase;
+}
+
+p, form {
+	margin: 10px 20px;
+}
+
+.form-horizontal .control-label {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.btn {
+	text-transform: uppercase;
+}
+
+footer section {
+	background-color: rgba(0, 0, 0, 0.2);
+	color: #ffffff;
+}
+
+@media screen and (min-width: 512px) {
+	header .container {
+		padding: 100px 50px;
+	}
+}
